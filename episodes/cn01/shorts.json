@@ -1,0 +1,12 @@
+[
+ {"id": "short1_sliver", "title": "3% of Egypt's land, nearly three quarters of its city population",
+  "head": ["3% of the land.", "Nearly 3/4 of city dwellers."], "beats": ["b01", "b02"], "sx": 120, "sw": 1680,
+  "tag": "Full video: why most Egyptians live on a sliver of the map",
+  "thumb": {"big": ["3% OF THE LAND", "3/4 OF CITY DWELLERS"], "small": "measured from Natural Earth's map data", "beat": "b02", "at": 0.9},
+  "description": "A strip 10 km either side of the Nile, plus the land between its delta branches, is 2.9% of Egypt's area. It holds 73% of the population in Natural Earth's list of Egyptian cities (metropolitan estimates, not a census). Computed cell by cell from public Natural Earth data. From the full video on Contour Notes. #egypt #geography #maps"},
+ {"id": "short2_belgium", "title": "Egypt's Nile strip is smaller than Belgium",
+  "head": ["Egypt's Nile strip", "is smaller than Belgium."], "beats": ["b06b", "b07"], "sx": 120, "sw": 1680,
+  "tag": "Full video: why most Egyptians live on a sliver of the map",
+  "thumb": {"big": ["SMALLER THAN", "BELGIUM"], "small": "the strip where most Egyptians live", "beat": "b06b", "at": 0.9},
+  "description": "Within 10 km of the Nile, plus the land between its delta branches: about 29,200 km2, a little smaller than Belgium (about 30,600 km2 by Natural Earth outlines), inside a country about 33 times Belgium's size. In the valley near Luxor the towns sit inside that strip like beads on a string. From the full video on Contour Notes. #egypt #geography #maps"}
+]

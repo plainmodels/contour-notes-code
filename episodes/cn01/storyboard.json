@@ -1,0 +1,1114 @@
+{
+ "episode": "cn01",
+ "title": "Why Most Egyptians Live on a Sliver of the Map",
+ "voice": "bf_emma",
+ "lang": "en-gb",
+ "speed": 0.95,
+ "gap": 0.6,
+ "tail": 11,
+ "beats": [
+  {
+   "id": "b01",
+   "chapter": "",
+   "scene": "map",
+   "p": {
+    "view": [
+     24.0,
+     21.2,
+     37.4,
+     32.2
+    ],
+    "cities": true,
+    "citiesAt": 0.08,
+    "draw": [
+     0.55,
+     0.9
+    ],
+    "labels": [
+     "Cairo",
+     "Alexandria",
+     "Luxor",
+     "Aswan"
+    ],
+    "labelsAt": 0.3,
+    "rk": 0.01
+   },
+   "text": "This is Egypt, a little over a million square kilometres. These are its 42 towns and cities in Natural Earth, the free public map data I am using. The dots are sized by population. Now let me add one thing: the river.",
+   "visual": "Egypt outline; city dots appear; the Nile draws in at the end"
+  },
+  {
+   "id": "b02",
+   "chapter": "",
+   "scene": "map",
+   "p": {
+    "view": [
+     24.0,
+     21.2,
+     37.4,
+     32.2
+    ],
+    "cities": true,
+    "band": 10,
+    "bandAt": 0.1,
+    "rk": 0.01,
+    "note": [
+     "2.9% of the land",
+     "73% of the city population"
+    ],
+    "noteAt": 0.45
+   },
+   "text": "Most of the people sit on it. Draw a strip ten kilometres either side of the Nile, and add the land between its two branches in the delta. That strip is 2.9 percent of Egypt. It holds 73 percent of the people in those cities. About three percent of the land, nearly three quarters of the people.",
+   "visual": "the 10 km strip in green; note card with the two shares"
+  },
+  {
+   "id": "b03",
+   "chapter": "",
+   "scene": "title",
+   "p": {
+    "title": [
+     "Why most Egyptians live",
+     "on a sliver of the map"
+    ],
+    "sub": "measured from Natural Earth's map data, cell by cell"
+   },
+   "text": "So why does a country this big live on a line this thin? And who are the people who do not?",
+   "visual": "title card"
+  },
+  {
+   "id": "b04",
+   "chapter": "In this video",
+   "scene": "bullets",
+   "p": {
+    "head": "We will find out",
+    "items": [
+     "How thin the sliver really is",
+     "Why the rest of the map is empty",
+     "Who lives off the line, and why",
+     "What these numbers can and cannot tell you"
+    ]
+   },
+   "text": "We will measure how thin the sliver really is, see why the rest of the map is empty, find the people who live off the line, and be honest about what these numbers can and cannot tell you.",
+   "visual": "four bullets"
+  },
+  {
+   "id": "b05",
+   "chapter": "1 · The sliver",
+   "scene": "card",
+   "p": {
+    "label": "the method",
+    "big": "1.2 million squares",
+    "where": [
+     "each 0.01 degrees, about one kilometre across",
+     "each with its true area on the curved Earth",
+     "inside Egypt? how far from the river?"
+    ],
+    "foot": "then add them up"
+   },
+   "text": "Here is how I measured it. I used Natural Earth, a free public map dataset, for Egypt's border, the river and the cities. I covered Egypt with a grid of about one point two million squares, each about a kilometre across, and gave each one its true area on the curved Earth. For every square I asked two questions: is it inside Egypt, and how far is it from the river line? Then I added them up.",
+   "visual": "method card"
+  },
+  {
+   "id": "b06",
+   "chapter": "1 · The sliver",
+   "scene": "hbars",
+   "p": {
+    "head": "share of Egypt's land this close to the Nile, plus the land between its branches · computed from Natural Earth",
+    "rows": [
+     {
+      "label": "2 km",
+      "value": 1.26,
+      "txt": "1.3%",
+      "col": "#e8c170"
+     },
+     {
+      "label": "5 km",
+      "value": 1.8800000000000001,
+      "txt": "1.9%",
+      "col": "#e8c170"
+     },
+     {
+      "label": "10 km",
+      "value": 2.91,
+      "txt": "2.9%",
+      "col": "#8fd19e"
+     },
+     {
+      "label": "20 km",
+      "value": 4.95,
+      "txt": "5.0%",
+      "col": "#e8c170"
+     },
+     {
+      "label": "50 km",
+      "value": 11.01,
+      "txt": "11.0%",
+      "col": "#e8c170"
+     }
+    ],
+    "max": 12,
+    "foot": "the 10 km strip: 29,201 km², a square 171 km on each side"
+   },
+   "text": "Within two kilometres of the river: 1.3 percent of the country. Within five: 1.9. Within ten: 2.9. Even fifty kilometres either side, a hundred kilometres wide, is only 11 percent. The ten kilometre strip covers about 29,000 square kilometres, which would fit in a square 171 kilometres on each side.",
+   "visual": "bars: share of land by distance"
+  },
+  {
+   "id": "b06b",
+   "chapter": "1 · The sliver",
+   "scene": "map",
+   "p": {
+    "view": [
+     24.0,
+     21.2,
+     37.4,
+     32.2
+    ],
+    "band": 10,
+    "bandAt": 0.05,
+    "belgium": true,
+    "belgiumAt": 0.25,
+    "scaleKm": 200
+   },
+   "text": "To put that in perspective, here is Belgium, the whole country, moved onto the map at the same scale. By Natural Earth's outlines, Belgium is about 30,631 square kilometres. The ten kilometre strip along the Nile is a little smaller than that, inside a country 33 times Belgium's size.",
+   "visual": "Belgium outline moved onto Egypt at the same scale, next to the strip"
+  },
+  {
+   "id": "b07",
+   "chapter": "1 · The sliver",
+   "scene": "map",
+   "p": {
+    "view": [
+     24.0,
+     21.2,
+     37.4,
+     32.2
+    ],
+    "view2": [
+     31.6,
+     24.9,
+     33.8,
+     27.2
+    ],
+    "zfrom": 0.1,
+    "zto": 0.55,
+    "band": 10,
+    "bandAt": 0.05,
+    "cities": true,
+    "rk": 0.01,
+    "labels": [
+     "Luxor",
+     "Qena",
+     "Isna"
+    ],
+    "labelsAt": 0.6,
+    "scaleKm": 20,
+    "thin": true
+   },
+   "text": "Zoom in on the valley near Luxor and you can see how narrow it is. In this map data the river runs 844 kilometres from the Aswan reservoir to Cairo, and then splits into two branches of about 183 kilometres each down to the sea. The green strip is twenty kilometres wide, and the towns sit inside it like beads on a string.",
+   "visual": "zoom into the valley near Luxor; 20 km scale bar"
+  },
+  {
+   "id": "b07b",
+   "chapter": "1 · The sliver",
+   "scene": "table",
+   "p": {
+    "head": "every city in the list between Aswan and Cairo, south to north · distance from the river line",
+    "hdr": [
+     "city",
+     "population",
+     "from the Nile"
+    ],
+    "cols": [
+     0,
+     760,
+     1380
+    ],
+    "lh": 58,
+    "y0": 220,
+    "rows": [
+     [
+      "Aswan",
+      "313,442",
+      "1.0 km"
+     ],
+     [
+      "Kom Ombo",
+      "303,962",
+      "4.2 km"
+     ],
+     [
+      "Isna",
+      "100,000",
+      "3.1 km"
+     ],
+     [
+      "Luxor",
+      "609,248",
+      "1.0 km"
+     ],
+     [
+      "Qena",
+      "302,027",
+      "1.2 km"
+     ],
+     [
+      "Girga",
+      "128,250",
+      "3.1 km"
+     ],
+     [
+      "Sohag",
+      "600,000",
+      "1.5 km"
+     ],
+     [
+      "Asyut",
+      "420,585",
+      "0.3 km"
+     ],
+     [
+      "Mallawi",
+      "217,365",
+      "4.5 km"
+     ],
+     [
+      "El Minya",
+      "500,000",
+      "3.9 km"
+     ],
+     [
+      "Samalut",
+      "152,097",
+      "4.7 km"
+     ],
+     [
+      "Beni Mazar",
+      "79,553",
+      "2.4 km"
+     ],
+     [
+      "Beni Suef",
+      "489,450",
+      "0.9 km"
+     ]
+    ],
+    "step": 0.04,
+    "foot": "Natural Earth populated places; distance to the 1:50m river line"
+   },
+   "text": "Walk down the valley and the pattern does not break. Between Aswan and Cairo, Natural Earth lists 13 cities, from Aswan and Luxor to Asyut and Beni Suef. Every single one is within 5 kilometres of the river line. Several are less than a kilometre and a half away. There is no second row of towns further out, because further out there is nothing to live on.",
+   "visual": "table of the valley cities with their distance from the river",
+   "say": "Walk down the valley and the pattern does not break. Between Aswan and Cairo, Natural Earth lists 13 cities, from Aswan and Luxor to As-yoot and Beni Suef. Every single one is within 5 kilometres of the river line. Several are less than a kilometre and a half away. There is no second row of towns further out, because further out there is nothing to live on."
+  },
+  {
+   "id": "b08",
+   "chapter": "1 · The sliver",
+   "scene": "quote",
+   "p": {
+    "lines": [
+     "Only 7.7 per cent of Egypt's area is inhabited.",
+     "The majority of Egyptians live either in the Nile Delta",
+     "or in the narrow Nile Valley south of Cairo."
+    ],
+    "hl": [
+     0
+    ],
+    "src": "UNICEF Egypt, “Country Background”, read 16 November 2026",
+    "src_short": "UNICEF",
+    "foot": "about 105 million people, 3 June 2023"
+   },
+   "text": "The official picture agrees. UNICEF puts it plainly: only 7.7 percent of Egypt's area is inhabited, and most Egyptians live in the Nile Delta or in the narrow valley south of Cairo. It counts about 105 million people in June 2023. That is a different measure from my strip, inhabited land rather than distance from a river, so it comes out a little wider.",
+   "visual": "UNICEF quote card"
+  },
+  {
+   "id": "b09",
+   "chapter": "1 · The sliver",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "105 million people on 7.7% of the land:",
+     "about 1,359 per square kilometre.",
+     "Spread over all of Egypt: 105."
+    ],
+    "accent": [
+     1
+    ],
+    "sub": "worked out from UNICEF's figures and the computed area"
+   },
+   "text": "Put those two figures together. 105 million people on 7.7 percent of the land means about 1,359 people per square kilometre where people actually live. Spread over the whole country, it would be just 105.",
+   "visual": "statement"
+  },
+  {
+   "id": "b10",
+   "chapter": "2 · Why the rest is empty",
+   "scene": "rainbars",
+   "p": {
+    "sub": "the Egyptian Meteorological Authority's averages, published by the WMO"
+   },
+   "text": "Why is the rest empty? Start with the sky. Cairo gets about 24.8 millimetres of rain in an average year, and almost none of it from May to October. That is far too little to grow crops on rain alone.",
+   "visual": "Cairo monthly rainfall bars"
+  },
+  {
+   "id": "b10b",
+   "chapter": "2 · Why the rest is empty",
+   "scene": "hbars",
+   "p": {
+    "head": "average rain in a whole year, 1981–2010 · WMO, from the Egyptian Meteorological Authority",
+    "x0": 520,
+    "max": 210,
+    "rows": [
+     {
+      "label": "Alexandria",
+      "value": 192.6,
+      "txt": "192.6 mm",
+      "col": "#6fb7d6"
+     },
+     {
+      "label": "Cairo",
+      "value": 24.8,
+      "txt": "24.8 mm",
+      "col": "#6fb7d6"
+     },
+     {
+      "label": "Hurghada",
+      "value": 5.5,
+      "txt": "5.5 mm",
+      "col": "#6fb7d6"
+     },
+     {
+      "label": "Luxor",
+      "value": 5.2,
+      "txt": "5.2 mm",
+      "col": "#6fb7d6"
+     },
+     {
+      "label": "Aswan",
+      "value": 1.2,
+      "txt": "1.2 mm",
+      "col": "#6fb7d6"
+     }
+    ],
+    "foot": "from the Mediterranean coast south to Aswan"
+   },
+   "text": "And Cairo is one of the wetter places. Alexandria, on the Mediterranean, gets about 193 millimetres a year. Cairo, 25. Hurghada on the Red Sea, 5.5. Luxor, 5.2. And Aswan, in the south, about 1.2 millimetres, barely a single wet day.",
+   "visual": "bars: yearly rain by city, north to south"
+  },
+  {
+   "id": "b11",
+   "chapter": "2 · Why the rest is empty",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "The rain does not water Egypt.",
+     "The river does,",
+     "and the river's rain falls far to the south."
+    ],
+    "accent": [
+     1
+    ]
+   },
+   "text": "So the rain does not water Egypt. The river does. The Nile carries water that fell as rain far to the south, in other countries, and carries it north through the desert, 844 kilometres from Aswan to Cairo alone. Where that water can reach, people can farm and live. Where it cannot, there is sand and rock.",
+   "visual": "statement"
+  },
+  {
+   "id": "b12",
+   "chapter": "2 · Why the rest is empty",
+   "scene": "map",
+   "p": {
+    "view": [
+     26.0,
+     21.0,
+     36.5,
+     31.9
+    ],
+    "nasser": true,
+    "band": 10,
+    "bandAt": 0.3,
+    "draw": [
+     0.05,
+     0.6
+    ],
+    "cities": true,
+    "minPop": 300000,
+    "rk": 0.01,
+    "labels": [
+     "Aswan",
+     "Cairo"
+    ],
+    "labelsAt": 0.5,
+    "legend": [
+     {
+      "col": "#6fb7d6",
+      "txt": "Nile and Lake Nasser"
+     },
+     {
+      "col": "#8fd19e",
+      "txt": "within 10 km, and the delta"
+     }
+    ]
+   },
+   "text": "Follow it from the south. The river enters Egypt through Lake Nasser, the reservoir behind the Aswan dam, and from Aswan it runs north through a valley cut into the desert, until it fans out into the delta north of Cairo.",
+   "visual": "the river drawn south to north, with Lake Nasser"
+  },
+  {
+   "id": "b12b",
+   "chapter": "2 · Why the rest is empty",
+   "scene": "map",
+   "p": {
+    "view": [
+     29.6,
+     29.7,
+     32.6,
+     31.7
+    ],
+    "band": 10,
+    "bandAt": 0.05,
+    "cities": true,
+    "rk": 0.016,
+    "labels": [
+     "Cairo",
+     "Tanta",
+     "El Mansura",
+     "Kafr el Sheikh",
+     "Dumyat",
+     "Rashid",
+     "Alexandria"
+    ],
+    "labelLeft": [
+     "Rashid",
+     "Alexandria"
+    ],
+    "labelsAt": 0.3,
+    "scaleKm": 50,
+    "note": [
+     "8,555 km²",
+     "between the two branches"
+    ],
+    "noteAt": 0.6,
+    "notePos": "br"
+   },
+   "text": "North of Cairo the river splits into the Rosetta branch and the Damietta branch, and the land between them is the heart of the delta: about 8,555 square kilometres in this data. Tanta, Kafr el Sheikh and Shibin el Kom sit between the branches; Mansura, Damietta and Rosetta sit on them. Rosetta and Damietta are the towns that gave the two branches their names, near where each one meets the sea.",
+   "visual": "zoom on the delta, the two branches and their towns",
+   "say": "North of Cairo the river splits into the Rosetta branch and the Damietta branch, and the land between them is the heart of the delta: about 8,555 square kilometres in this data. Tanta, Kafr el Sheikh and Shibin el Kom sit between the branches; Man-soora, Damietta and Rosetta sit on them. Rosetta and Damietta are the towns that gave the two branches their names, near where each one meets the sea."
+  },
+  {
+   "id": "b13",
+   "chapter": "3 · Who lives off the line",
+   "scene": "map",
+   "p": {
+    "view": [
+     24.0,
+     21.2,
+     37.4,
+     32.2
+    ],
+    "cities": true,
+    "colourNear": true,
+    "band": 10,
+    "bandAt": 0.05,
+    "rk": 0.01,
+    "labels": [
+     "Alexandria",
+     "Ismaïlia",
+     "Suez",
+     "El Faiyum",
+     "Siwa",
+     "El Kharga"
+    ],
+    "labelLeft": [
+     "Alexandria",
+     "El Faiyum",
+     "Siwa"
+    ],
+    "labelsAt": 0.35,
+    "legend": [
+     {
+      "col": "#e8c170",
+      "txt": "on the strip"
+     },
+     {
+      "col": "#e8775a",
+      "txt": "off the strip"
+     }
+    ]
+   },
+   "text": "Now the exceptions, because more than a quarter of the city population does not live on the strip. In gold, the 22 places on the strip. In red, the 20 that are not. Most of the red population is in a handful of places: Alexandria on the Mediterranean, and Port Said, Ismailia and Suez along the Suez Canal.",
+   "visual": "cities coloured on or off the strip"
+  },
+  {
+   "id": "b14",
+   "chapter": "3 · Who lives off the line",
+   "scene": "table",
+   "p": {
+    "head": "largest places in Natural Earth's list for Egypt · population estimate · distance from the river line",
+    "hdr": [
+     "place",
+     "population",
+     "from the Nile"
+    ],
+    "cols": [
+     0,
+     760,
+     1380
+    ],
+    "rows": [
+     [
+      "Cairo",
+      "11,893,000",
+      "1 km"
+     ],
+     [
+      "Alexandria",
+      "4,165,000",
+      "51 km"
+     ],
+     [
+      "Giza",
+      "2,681,863",
+      "6 km"
+     ],
+     [
+      "Ismailia",
+      "656,135",
+      "93 km"
+     ],
+     [
+      "Port Said",
+      "623,864",
+      "52 km"
+     ],
+     [
+      "Luxor",
+      "609,248",
+      "1 km"
+     ],
+     [
+      "El Mansura",
+      "600,000",
+      "3 km"
+     ],
+     [
+      "Sohag",
+      "600,000",
+      "2 km"
+     ],
+     [
+      "Suez",
+      "508,335",
+      "124 km"
+     ]
+    ],
+    "hl": [
+     1,
+     3,
+     4,
+     8
+    ],
+    "foot": "Natural Earth populated places, pop_max: metropolitan estimates, not a census"
+   },
+   "text": "Here are the largest places in the list. Cairo is less than a kilometre from the river, Giza six. Alexandria is 51 kilometres from the nearest branch, on the sea. Ismailia, Port Said and Suez are on the canal, the country's other great line of trade.",
+   "visual": "table of the largest places, off-strip rows highlighted"
+  },
+  {
+   "id": "b15",
+   "chapter": "3 · Who lives off the line",
+   "scene": "splitbar",
+   "p": {
+    "head": "Egypt: share of the land against share of the population in Natural Earth's city list",
+    "bars": [
+     {
+      "label": "land",
+      "parts": [
+       {
+        "share": 0.0291,
+        "col": "#8fd19e",
+        "txt": "2.9%",
+        "out": true
+       },
+       {
+        "share": 0.9709,
+        "col": "#2c4068",
+        "txt": ""
+       }
+      ]
+     },
+     {
+      "label": "people in the city list",
+      "parts": [
+       {
+        "share": 0.7306,
+        "col": "#8fd19e",
+        "txt": "73%"
+       },
+       {
+        "share": 0.2278,
+        "col": "#6fb7d6",
+        "txt": "23%"
+       },
+       {
+        "share": 0.0387,
+        "col": "#e8c170",
+        "txt": "4%",
+        "out": true
+       },
+       {
+        "share": 0.0028,
+        "col": "#e8775a",
+        "txt": ""
+       }
+      ]
+     }
+    ],
+    "legend": [
+     {
+      "col": "#8fd19e",
+      "txt": "the 10 km strip"
+     },
+     {
+      "col": "#6fb7d6",
+      "txt": "sea and canal coasts"
+     },
+     {
+      "col": "#e8c170",
+      "txt": "valley edges, by canal"
+     },
+     {
+      "col": "#e8775a",
+      "txt": "desert oases"
+     }
+    ]
+   },
+   "text": "Put it together. The strip is 2.9 percent of the land and holds 73 percent of the people in the city list. The sea and canal coasts add 23 percent. Another 4 percent live just off the strip, in places like Damanhur, Zagazig and El Faiyum, at the valley's edge where canals carry the river's water out. That leaves 0.3 percent for the oases of the Western Desert.",
+   "visual": "two 100% bars: land and people",
+   "say": "Put it together. The strip is 2.9 percent of the land and holds 73 percent of the people in the city list. The sea and canal coasts add 23 percent. Another 4 percent live just off the strip, in places like Daman-hoor, Zaga-zeeg and El Fay-yoom, at the valley's edge where canals carry the river's water out. That leaves 0.3 percent for the oases of the Western Desert."
+  },
+  {
+   "id": "b16",
+   "chapter": "3 · Who lives off the line",
+   "scene": "map",
+   "p": {
+    "view": [
+     24.5,
+     23.5,
+     31.5,
+     30.0
+    ],
+    "cities": true,
+    "colourNear": true,
+    "rk": 0.014,
+    "labels": [
+     "Siwa",
+     "El Kharga",
+     "Qasr Farafra",
+     "El Faiyum"
+    ],
+    "labelsAt": 0.2,
+    "scaleKm": 100,
+    "band": 10,
+    "bandAt": 0.05
+   },
+   "text": "The oases are real places, but small. In this data, Siwa has about 23,080 people and El Kharga about 49,991. They live on water from underground, in a desert that covers most of the map: 89 percent of Egypt is more than fifty kilometres from the river.",
+   "visual": "the Western Desert and its oases",
+   "say": "The oases are real places, but small. In this data, See-wa has about 23,080 people and El Kharga about 49,991. They live on water from underground, in a desert that covers most of the map: 89 percent of Egypt is more than fifty kilometres from the river."
+  },
+  {
+   "id": "c01",
+   "chapter": "4 · Two lines, and a neighbour",
+   "scene": "stepcurve",
+   "p": {
+    "head": "Egypt: city-list population living within this distance of the river line (delta interior = 0 km)",
+    "points": [
+     [
+      0.0,
+      0.0051
+     ],
+     [
+      0.0,
+      0.0115
+     ],
+     [
+      0.0,
+      0.0257
+     ],
+     [
+      0.3,
+      0.0405
+     ],
+     [
+      0.6,
+      0.0475
+     ],
+     [
+      0.6,
+      0.4655
+     ],
+     [
+      0.9,
+      0.4827
+     ],
+     [
+      1.0,
+      0.4937
+     ],
+     [
+      1.0,
+      0.5151
+     ],
+     [
+      1.2,
+      0.5258
+     ],
+     [
+      1.4,
+      0.5316
+     ],
+     [
+      1.5,
+      0.5527
+     ],
+     [
+      2.4,
+      0.5555
+     ],
+     [
+      2.8,
+      0.5766
+     ],
+     [
+      3.1,
+      0.5801
+     ],
+     [
+      3.1,
+      0.5846
+     ],
+     [
+      3.9,
+      0.6022
+     ],
+     [
+      4.2,
+      0.6129
+     ],
+     [
+      4.3,
+      0.6234
+     ],
+     [
+      4.5,
+      0.631
+     ],
+     [
+      4.7,
+      0.6364
+     ],
+     [
+      6.3,
+      0.7306
+     ],
+     [
+      16.3,
+      0.7482
+     ],
+     [
+      25.9,
+      0.7582
+     ],
+     [
+      34.9,
+      0.7694
+     ],
+     [
+      51.1,
+      0.9158
+     ],
+     [
+      51.9,
+      0.9377
+     ],
+     [
+      93.1,
+      0.9607
+     ],
+     [
+      123.9,
+      0.9786
+     ],
+     [
+      137.3,
+      0.9798
+     ],
+     [
+      154.5,
+      0.98
+     ],
+     [
+      164.2,
+      0.9856
+     ],
+     [
+      167.7,
+      0.9873
+     ],
+     [
+      191.4,
+      0.9936
+     ],
+     [
+      192.1,
+      0.9941
+     ],
+     [
+      249.1,
+      0.9951
+     ],
+     [
+      263.6,
+      0.9951
+     ],
+     [
+      276.1,
+      0.9951
+     ],
+     [
+      290.1,
+      0.9953
+     ],
+     [
+      300.6,
+      0.9989
+     ],
+     [
+      497.9,
+      0.9992
+     ],
+     [
+      522.8,
+      1.0
+     ]
+    ],
+    "xmax": 150,
+    "xstep": 25,
+    "marks": [
+     [
+      0.6,
+      "Cairo"
+     ],
+     [
+      10,
+      "10 km: 73%"
+     ],
+     [
+      51.1,
+      "Alexandria"
+     ],
+     [
+      93.1,
+      "Ismailia"
+     ]
+    ],
+    "foot": "Natural Earth populated places, pop_max"
+   },
+   "text": "Here is the same idea as a curve. Start at the river and walk away from it, adding up people as you pass their city. Half of the city-list population is within a kilometre of the water, and Cairo alone does most of that. By ten kilometres it is 73 percent. Then almost nothing: between ten and fifty kilometres the line barely moves, to 77 percent. At 51 kilometres it jumps. That is Alexandria, with Port Said right behind it, and by a hundred kilometres the curve has reached 96 percent. The last small steps are Ismailia at 93 kilometres, Suez, and the towns of the Red Sea and Sinai coasts. By a hundred and fifty kilometres it is 98 percent, and the rest is the oases.",
+   "visual": "step curve of cumulative city population against distance from the river"
+  },
+  {
+   "id": "c02",
+   "chapter": "4 · Two lines, and a neighbour",
+   "scene": "map",
+   "p": {
+    "view": [
+     24.0,
+     21.2,
+     37.4,
+     32.2
+    ],
+    "band": 10,
+    "bandAt": 0.05,
+    "coast": 10,
+    "coastAt": 0.25,
+    "cities": true,
+    "rk": 0.01,
+    "labels": [
+     "Alexandria",
+     "Bur Said",
+     "Suez",
+     "Hurghada"
+    ],
+    "labelLeft": [
+     "Alexandria"
+    ],
+    "labelsAt": 0.5,
+    "legend": [
+     {
+      "col": "#8fd19e",
+      "txt": "10 km of the river"
+     },
+     {
+      "col": "#6fb7d6",
+      "txt": "10 km of the sea"
+     }
+    ]
+   },
+   "text": "That jump is Egypt's second line: the sea. Natural Earth's outline gives Egypt about 2,718 kilometres of coast, on the Mediterranean, the Red Sea and the two gulfs either side of Sinai. Draw the same ten kilometre strip along it and you cover another 2.6 percent of the country. Alexandria, Port Said, Suez, Hurghada and the smaller towns along the shore all sit inside it.",
+   "visual": "the river strip in green and the coastal strip in blue"
+  },
+  {
+   "id": "c03",
+   "chapter": "4 · Two lines, and a neighbour",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "River and sea together:",
+     "5.3% of the land,",
+     "94% of the city population."
+    ],
+    "accent": [
+     2
+    ],
+    "sub": "Natural Earth outlines and city list, computed"
+   },
+   "text": "Put the two strips together. Ten kilometres of the river or of the sea is 5.3 percent of Egypt's land, and it holds 94 percent of the people in the city list. The other 6 percent are mostly Ismailia on the Suez Canal, the canal towns at the valley's edge, and the oases.",
+   "visual": "statement"
+  },
+  {
+   "id": "c04",
+   "chapter": "4 · Two lines, and a neighbour",
+   "scene": "map",
+   "p": {
+    "set": "sudan",
+    "view": [
+     21.5,
+     8.5,
+     39.0,
+     22.5
+    ],
+    "band": 10,
+    "bandAt": 0.1,
+    "cities": true,
+    "colourNear": true,
+    "rk": 0.012,
+    "labels": [
+     "Khartoum",
+     "Nyala",
+     "El Fasher",
+     "Al-Ubayyid",
+     "Kassala",
+     "Port Sudan"
+    ],
+    "labelLeft": [
+     "Port Sudan"
+    ],
+    "labelsAt": 0.4,
+    "scaleKm": 200,
+    "legend": [
+     {
+      "col": "#e8c170",
+      "txt": "within 10 km of a river"
+     },
+     {
+      "col": "#e8775a",
+      "txt": "further away"
+     }
+    ]
+   },
+   "text": "Is this just what rivers do? Try Egypt's southern neighbour, Sudan, with exactly the same method. By Natural Earth's outline, Sudan is about 1.86 million square kilometres, nearly twice the size of Egypt, and the Nile runs through it too. A ten kilometre strip around the Nile, the White Nile, the Blue Nile and the Atbara is 2.9 percent of Sudan, almost the same as in Egypt, and it holds 75 percent of Sudan's city-list population. But much of that is one place: Khartoum and Omdurman, at the meeting of the White and Blue Nile. Leave the capital out, and only 36 percent of the rest live on the strip. Sudan's main port, Port Sudan, is 376 kilometres from the nearest river line, on the Red Sea.",
+   "visual": "Sudan with its rivers, strip and cities coloured near or far"
+  },
+  {
+   "id": "c05",
+   "chapter": "4 · Two lines, and a neighbour",
+   "scene": "hbars",
+   "p": {
+    "head": "city-list population more than 50 km from the river and more than 10 km from the sea · computed",
+    "x0": 560,
+    "max": 25,
+    "rows": [
+     {
+      "label": "Sudan",
+      "value": 20.74,
+      "txt": "20.7%",
+      "col": "#e8775a"
+     },
+     {
+      "label": "Egypt",
+      "value": 2.59,
+      "txt": "2.6%",
+      "col": "#e8c170"
+     },
+     {
+      "label": "Egypt without Ismailia",
+      "value": 0.2839243437357537,
+      "txt": "0.3%",
+      "col": "#8fd19e"
+     }
+    ],
+    "foot": "Sudan: Kassala, Al-Ubayyid, Nyala, El Fasher, Gedaref and others · Egypt: Ismailia and the oases"
+   },
+   "text": "The real difference is what lies off the line. In Sudan, about one person in five in the city list lives more than fifty kilometres from the river and more than ten from the sea: in Kassala, Al-Ubayyid, Nyala, El Fasher and Gedaref. Nyala is 744 kilometres from the nearest river line. In Egypt the same share is 2.6 percent, and almost all of it is Ismailia, on the Suez Canal. Leave Ismailia out and it is the oases: 0.3 percent.",
+   "visual": "bars: share of city population far from river and sea"
+  },
+  {
+   "id": "c06",
+   "chapter": "4 · Two lines, and a neighbour",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "Sudan's inland cities live on water",
+     "from somewhere other than the Nile.",
+     "Egypt has almost nowhere like that."
+    ],
+    "accent": [
+     2
+    ]
+   },
+   "text": "So Sudan's inland cities must live on water from somewhere other than the Nile. Egypt, away from its river and its coasts, has almost nowhere like that: a handful of oases, and the canal. That is the sliver. It is not a choice people made once and could easily unmake. It is the only map of water the country has, drawn by one river and two seas.",
+   "visual": "statement"
+  },
+  {
+   "id": "b17",
+   "chapter": "Limits",
+   "scene": "bullets",
+   "p": {
+    "head": "Limits",
+    "numbered": true,
+    "items": [
+     "Natural Earth lists 42 places, not every village",
+     "Its populations are estimates, not a census",
+     "Distance to a river line is not the same as farmland",
+     "The 1:50m map leaves out small and seasonal rivers"
+    ]
+   },
+   "text": "Now the limits, because they matter here. Natural Earth lists 42 places, not every village, so these are shares of the city list, not of every Egyptian. Its population figures are estimates, and some neighbouring cities, like Cairo and Giza, overlap. And a strip around a river line is not the same as farmland: it includes some desert edges and misses some watered land further out. Finally, this is a world map at one to fifty million, so it leaves out small and seasonal rivers. That hardly matters in Egypt, which has one river, but it does matter in Sudan, so read the comparison as a sketch, not a census.",
+   "visual": "numbered limits"
+  },
+  {
+   "id": "b18",
+   "chapter": "Three things",
+   "scene": "bullets",
+   "p": {
+    "head": "Three things",
+    "numbered": true,
+    "items": [
+     "2.9% of Egypt lies within 10 km of the Nile or its delta",
+     "That strip holds 73% of the city population",
+     "River and sea: 5% of the land, 94% of the city population"
+    ]
+   },
+   "text": "Three things. 2.9 percent of Egypt lies within ten kilometres of the Nile or between its branches. That strip holds 73 percent of the people in the city list. And add a strip along the sea, and 5 percent of the land holds 94 percent of them.",
+   "visual": "numbered summary"
+  },
+  {
+   "id": "b19",
+   "chapter": "",
+   "scene": "endcard",
+   "p": {
+    "next_label": "Next on Contour Notes",
+    "next": [
+     "Why Canada lives within",
+     "reach of the US border"
+    ]
+   },
+   "text": "This is Contour Notes: why places are the way they are, drawn from the data. The map data and the code are linked below. Next time: why Canada lives within reach of the US border.",
+   "visual": "end card with space for YouTube end-screen elements"
+  }
+ ]
+}
