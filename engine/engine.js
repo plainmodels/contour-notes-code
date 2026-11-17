@@ -253,7 +253,9 @@ function frameShort(T, cfg) {
   if (cfg.tag) { c2.font = `700 100px ${SERIF}`; c2.fillStyle = C.ink; c2.fillText("Contour Notes", SW / 2, 880);
     c2.font = `400 40px ${SANS}`; c2.fillStyle = C.gold; c2.fillText("Why places are the way they are.", SW / 2, 960);
     c2.font = `700 50px ${SANS}`; c2.fillStyle = C.ink; wrapLines(c2, cfg.cap, 900).forEach((l, i) => c2.fillText(l, SW / 2, 1150 + i * 70)); }
-  else if (cfg.cap) { c2.font = `700 50px ${SANS}`; const lines = wrapLines(c2, cfg.cap, 920), y0 = dy + dh + 110; lines.forEach((l, i) => { c2.fillStyle = C.ink; c2.fillText(l, SW / 2, y0 + i * 70); }); }
+  else if (cfg.cap) { const y0 = dy + dh + 110; let s = 50, lines;   // shrink long captions until they fit above the bottom edge
+    for (;;) { c2.font = `700 ${s}px ${SANS}`; lines = wrapLines(c2, cfg.cap, 920); if (y0 + (lines.length - 1) * s * 1.4 + s * 0.3 <= SH - 50 || s <= 32) break; s -= 2; }
+    lines.forEach((l, i) => { c2.fillStyle = C.ink; c2.fillText(l, SW / 2, y0 + i * s * 1.4); }); }
   c2.font = `700 32px ${SANS}`; c2.fillStyle = C.gold; c2.fillText("CONTOUR NOTES", SW / 2, 130);
   return shortCanvas.toDataURL("image/jpeg", 0.93).split(",")[1];
 }
